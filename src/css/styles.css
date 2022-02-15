@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+#name {
+    font-size: 2em;
+    margin-left: 1em;
+    text-shadow: 2px 2px 2px #585656;
+}
+
+#top_contact a {
+    font-size: 2em;
+    text-decoration: none;
+    font-weight: normal;
+    cursor: pointer;
+    transition: all 0.4s ease 0s;
+    color: black;
+    margin-right: 1em;
+    text-shadow: 2px 2px 2px #585656;
+
+}
+
+#top_contact a:hover {
+    transition: all 0.4s ease 0s;
+    color: rgb(59, 59, 209);
+}
+
+
+/* Main section*/
+
+.about {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3em;
+    max-width: 1200px;
+}
+
+.photo {
+    width: 30%;
+    height: auto;
+    border: 1px dotted blue;
+    height: 300px;
+}
+
+h2 {
+    padding: 1em 0;
+    margin: 0 1em 1em 0;
+}
+
+#text_about {
+    width: 60%;
+    padding: 1em;
+}
+
+/*Stack section*/
+.stack {
+    margin: 5em;
+}
+h2 {
+    text-align: center;
+    border-bottom: 1px solid #000;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+.card {
+    border: 1px solid red;
+    width: 150px;
+    height: 200px;
+
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+.logo img {
+    height: 50px;
+    width: auto;
+}
+
+h3 {
+    text-align: center;
+}
+
+ul {
+    columns: 2;
+    margin: 0 1em;
+    padding: 1em;
+    text-align:justify;
+}
